@@ -1,0 +1,83 @@
+/*************  ✨ Windsurf Command ⭐  *************/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[co]
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+DOWNLOADS/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually unnecessary, but commented out just in case
+# dist/
+# build/
+
+# PyBuilder
+target/
+
+# PEP 582; used by e.g. github.com/David-OConnor/py_app_template
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+pyvenv.cfg
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Django stuff:
+instance/
+*.pid
+*.sock
+
+# If there are specific file extensions you don't want to track, add them here:
+
+# If you want to ignore all files in a particular directory, add a line like:
+
+# If you want to ignore all files with a particular file extension, add a line like:
+
+# If you want to ignore all files with a particular filename prefix, add a line like:
+/*******  1e549cc2-6618-4783-af5f-14b19d8d494b  *******/

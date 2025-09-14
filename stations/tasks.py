@@ -1,7 +1,7 @@
 from celery import shared_task
 from django.utils import timezone
-from .models import Station, Container, ActivityLog
-from .services import DockerService
+from models import Station, Container, ActivityLog
+from services import DockerService
 import logging
 
 logger = logging.getLogger(__name__)

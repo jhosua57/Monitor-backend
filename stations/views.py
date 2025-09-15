@@ -59,7 +59,6 @@ class StationViewSet(viewsets.ModelViewSet):
     
     @action(detail=True, methods=['post'])
     def refresh_containers(self, request, pk=None):
-        """Refrescar contenedores de la estación"""
         station = self.get_object()
         docker_service = DockerService(station)
         
